@@ -7,6 +7,9 @@ var screenStream;
 var peer = null;
 var currentPeer = null
 var screenSharing = false
+function reload(){
+    window.location.reload();
+}
 function createRoom() {
     console.log("Creating Room")
     let room = document.getElementById("room-input").value;
